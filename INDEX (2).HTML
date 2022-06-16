@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=10"> 
+    <link rel="stylesheet" href="STYLES.CSS">
+    <title>DATA FORM</title> 
+</head>
+<body>
+    <img src="ATC.png" alt="ATC IMAGE" height="150">
+    <HR>
+    <h2 style="color: red;"> ADVANCE TUTORIAL CLASS WELCOMES NEW STUDENTS.</h2>
+    <p>
+         I specially welcome you to Advance Tutorial Class University of Calabar,Calabar. A place for the intellects, to enable we the tutors prepare adequately for the semester, it is important you fill in the form below with the correct details as we would not tolerate false information.Thanks for your usual coperation as we wish and pray for a trouble free academic year,
+         Best regards.
+    </p>
+    <p style="color:black ;"> <b>ADMIN DENNIS GIDEON K.</b>
+    </p>
+    <HR>
+    <h3 STYLE="color:black;" style="background-color: orange;">FILL THE DATA FORM BELOW.</h3>
+    <hr>
+    <h3 style="color:red;"> <b>(PERSONAL INFORMATION).</b>
+    </h3>
+    <form action="FORM.HTML" method="get" enctype="multipart/form-data"></form>
+    <div>
+        <label for="Name">Name:</label>
+          <input type="Name" id="Name" placeholder=" Your Name" required="Name">
+        <label for="Email">Email:</label>
+          <input type="email" id="Email" placeholder="Your Email" required="Email">
+        <label for="CONTACT">Phone Number:</label>
+          <input type="CONTACT" id="CONTACT" placeholder=" Your phone number" required="Number">
+       <br>
+       <br>
+          <div>
+            <label for="MALE">Male</label>
+              <input type="radio" name="GENDER" id="MALE">
+            <label for="FEMALE">Female</label>
+              <input type="radio" name="GENDER" id="FEMALE">
+            <label for="ADDRESS"> R/Address:</label>
+              <input type="text" id="TEXT" placeholder="Residential Address" required="Residential address">
+
+              <label for="Level">Level:</label>
+            <select name="Level" id="Level">Level
+               <option value="Year 1"> Year 1</option>
+               <option label="Year 2">Year 2</option>
+               <option label="Year 3">Year 3</option>
+               <option label="Year 4">Year 4</option>
+               <option label="Year 5">Year 5</option>           \
+            </select>
+            <label for="Marital Status">Marital Status:</label>
+            <select name="Marital Status" id="Level">Marital Status
+               <option value="Single"> Single</option>
+               <option label="Married">Married</option>
+               <option label="Divorced">Divorced</option>
+            </select>
+        </div>
+
+
+          
+    </form>
+    <form action="FORM.HTML" method="get" enctype="text/plain">
+        <br>
+        <div>
+         <label for="Address"> Contact Address:</label>
+          <input type="text" id="Address" placeholder="Contact Address" col="2" row="4">
+         <label for="Faculty">Faculty:</label>
+          <input type="text" id="department" placeholder="Your Faculty">
+         <label for="Department">Department:</label>
+          <input type="text" id="text" placeholder="Your Department">
+        </div>
+        <br>
+     <div>
+        <label for="State of Origin">State Of Origin:</label>
+          <input type="text" id="State Of origin" placeholder="Your state of Origin">
+        <label for="Sponsor's Address"> Sponsor's Address:</label>
+          <input type="text" id="Sponsor's Address" placeholder="S/Address">
+        <label for="Sponsor's Contact"> Sponsor's Contact:</label>
+          <input type="text" id="Sponsor's Contact" placeholder="S/Contact">
+    </div>
+   </form>
+    <br>
+        <form action="FORM.HTML" method="get" enctype="multipart/form-data">
+            <div>
+                <label for="Course">Course:</label>
+                <input type="text" id="Course" placeholder="Your Course">
+                <label for="Date of Birth"> Date of Birth:</label>
+                <input type="date" id="Date" placeholder="Your D.O.B">
+                  
+            </div>
+            <br>
+            <button type="submit" style="border: 2px solid red;"> <b>SUBMIT</b>
+            </button>
+                <button type="reset" style="border: 2px solid red"><b>RESET</b>
+                </button>
+                <hr>
+                <div>
+                    <h3 style="color:black;" style="background-color: orange;">ACADEMIC INFORMATION.</h3>
+                </div>
+                <hr>
+                <h3 style="color: red;">CHALLENGING COURSES(If any)</h3>
+                <div>
+                    <label for="Challenging Courses"> MATH 111</label>
+                    <input type="checkbox" name="MATHS 111" id="MATH111">
+                    <label for="Challenging courses">CHEM 101/111</label>
+                    <input type="checkbox" name="CHEM 101/111" id="CHEM101/111">
+                </div>
+                <div>
+                    <label for="Challenging courses">PHY 101</label>
+                    <input type="checkbox" name="PHY 101" id="PHY 101">
+                    <label for="Challenging courses">BIO 101</label>
+                    <input type="checkbox" name="BIO 101" id="BIO 101">
+                </div>
+                <br>
+                <div>
+                    <label for="Time">STUDY TIME.</label>
+                <input type="time" name="Time" id="time" min="40 min" max="7 hours">
+                </div>
+                <br>
+                <div style="color:red;"><b>HOW DO YOU INTEND TO SOLVE THIS PROBLEM?</b></div>
+                <br>
+                <div>
+                    <label for="Solutions"></label>
+                    <textarea id="SUGGEST" name="suggestion" placeholder="Your suggestion" col="3" row="4"></textarea>
+                </div>
+                <hr>
+                <h3 STYLE="color: RED;">TELL US ABOUT YOURSELF BRIEFLY</h3>
+                <div>
+                    <label for="Bio"></label>
+                    <textarea id="Bio" name="Bio" col="3" row="4" placeholder="Let us know you"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="IMAGE"><b>IMAGE</b></label>
+                    <input id="File" type="File" name="File">
+                </div>
+                <br>
+                <br>
+                <button STYLE="border: 2PX SOLID RED;" type="submit"> <b>SUBMIT</b></button>
+                <button STYLE="border: 2PX SOLID RED;" type="reset"> <b>RESET</b></button>
+                <hr>
+        </form>
+        </div>
+   <br>
+   <div STYLE="color:RED;"><b> CLICK BELOW TO READ CLASS RULES</b> 
+  </div>
+   <br>
+  <a href="rules.html"> <button style="border: 2px SOLID RED;"><b>CLASS RULES</b></button>
+  </a>
+ 
+    
+</body>
+</html>
